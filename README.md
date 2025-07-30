@@ -20,7 +20,7 @@ Example configuration is setup for Alphabet's IR website. It includes a graphica
 
 - Downloaded PDFs will be saved to: `downloaded_pdfs/{section}/{year}/`
   
-- Logs:
+- Logs will be saved to: `/logs`
   - `download_log.txt`: All activity logs.
   - `error_log.txt`: Any download or parse failures.
   - `structured_log.json`: JSON-formatted structured logs.
