@@ -1,0 +1,44 @@
+sec-grp-det-id,sec-grp-id,sec-grp-url,filing-typ,filing-desc
+1,1,annual-filings,10-K,Annual report pursuant to Section 13 or 15(d)
+2,1,annual-filings,10-K/A,"[Amend] Annual report [Section 13 and 15(d), not S-K Item 405]"
+3,2,current-reports,8-K,Current report pursuant to Section 13 or 15(d)
+4,2,current-reports,8-K/A,[Amend]Current report pursuant to Section 13 or 15(d)
+5,2,current-reports,8-K12B,Notification that a class of securities of successor issuer is deemed to be registered pursuant to section 12(b)
+6,3,section-16-filings,3,Initial statement of beneficial ownership of securities
+7,3,section-16-filings,3/A,[Amend] Initial statement of beneficial ownership of securities
+8,3,section-16-filings,4,Statement of changes in beneficial ownership of securities
+9,3,section-16-filings,4/A,[Amend] Statement of changes in beneficial ownership of securities
+10,3,section-16-filings,5,Annual statement of changes in beneficial ownership of securities
+11,3,section-16-filings,5/A,[Amend] Annual statement of changes in beneficial ownership of securities
+12,4,quarterly-filings,10-Q,General form for quarterly reports under Section 13 or 15(d)
+13,5,proxy-filings,DEF 14A,Other definitive proxy statements
+14,5,proxy-filings,DEFA14A,Additional proxy soliciting materials - definitive
+15,5,proxy-filings,PRE 14A,Preliminary proxy statement providing notification matters to be brought to a vote
+16,6,registration-statements,424B2,Prospectus [Rule 424(b)(2)]
+17,6,registration-statements,424B5,Prospectus [Rule 424(b)(5)]
+18,6,registration-statements,S-3ASR,Automatic shelf registration statement of securities of well-known seasoned issuers
+19,6,registration-statements,S-4,Registration statement under Securities Act of 1933
+20,6,registration-statements,S-8,Registration statement under Securities Act of 1933 to be offered to employees pursuant to certain plans
+21,6,registration-statements,S-8 POS,"Securities to be offered to employees in employee benefit plans, post-effective amendments"
+22,7,other-filings,144,Notice of proposed sale of securities pursuant to Rule 144
+23,7,other-filings,SD,Specialized Disclosure Report
+24,7,other-filings,PX14A6G,Notice of exempt solicitation submitted by non-management
+25,7,other-filings,CERT,Paper Submission
+26,7,other-filings,8-A12B,Registration of securities [Section 12(b)]
+27,7,other-filings,13F-HR,"Quarterly report filed by institutional managers, Holdings"
+28,7,other-filings,FWP,Filing under Securities Act Rules 163/433 of free writing prospectuses
+29,7,other-filings,ARS,Annual Report to Security Holders
+30,7,other-filings,SCHEDULE 13G/A,[Amend] Statement of acquisition of beneficial ownership by individuals
+31,7,other-filings,IRANNOTICE,Notice of disclosure filed pursuant to Section 219 of the Iran Threat Reduction and Syria Human Rights Act of 2012 (Exchange Act Section 13(r)).
+32,7,other-filings,N-PX,Annual Report of Proxy Voting Record of Registered Management Investment Company
+33,7,other-filings,SC 13G/A,[Amend] Statement of acquisition of beneficial ownership by individuals
+34,7,other-filings,144/A,[Amend] Report of proposed sale of securities
+35,7,other-filings,SC 13G,Statement of acquisition of beneficial ownership by individuals
+36,7,other-filings,UPLOAD,SEC-generated letter
+37,7,other-filings,CORRESP,Correspondence
+38,7,other-filings,425,"Prospectuses and communications, business combinations"
+39,7,other-filings,EFFECT,Notice of Effectiveness
+40,7,other-filings,POSASR,Post-effective Amendment to an automatic shelf registration statement
+41,7,other-filings,424B3,Prospectus [Rule 424(b)(3)]
+42,7,other-filings,S-4/A,"[Amend] Registration of securities, business combinations"
+43,7,other-filings,D,Notice of Exempt Offering of Securities
