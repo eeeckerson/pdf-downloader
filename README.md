@@ -117,4 +117,4 @@ If you are using macOS or Linux:
    ```
    deactivate
    ```
-Additional design details and financial analysis use cases are provided within the file: `pdf-downloader-design.pdf`
+Additional design details and use case examples are provided within the file: `pdf-downloader-design.pdf`
