@@ -8,7 +8,7 @@ Example configuration is setup for Alphabet's IR website. It includes a graphica
 ## Scripts
 - `pdf_downloader.py`: The main script for downloading PDFs.
 - `gui_launcher.py`: A graphical interface to launch the downloader without using the terminal.
-- `update_filing_type_filenames`: A script for scanning page 1 from downloaded PDFs and renaming files based on `sec-grp-det.csv`
+- `update_filing_type_filenames.py`: A script for scanning page 1 from downloaded PDFs and renaming files based on `sec-grp-det.csv`
 
 ## Input Files
 - `input/base-url.csv`: Base URL input file. Example configuration is for Alphabet's IR website.
