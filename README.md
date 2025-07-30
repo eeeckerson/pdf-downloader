@@ -1,18 +1,18 @@
-## pdf-downloader
+# pdf-downloader
 
 A python project for downloading .pdf filings from a public URL and organizing the folder structure using input files.
 Example configuration is setup for Alphabet's IR website. 
 It includes a graphical interface for ease of use. 
 
 ---
-# Included Files
+## Included Files
 
-# Scripts
+## Scripts
 - `pdf_downloader.py`: The main script for downloading PDFs.
 - `gui_launcher.py`: A graphical interface to launch the downloader without using the terminal.
 - `update_filing_type_filenames`: A script for scanning page 1 from downloaaded PDFs and renaming files based on `sec-grp-det.csv`
 
-# Input Files
+## Input Files
 - `input/base-url.csv`: Base URL input file. Example configuration is for Alphabet's IR website.
 - `input/year-url.csv`: Year URL input file. Example configuration is filing years to process from Alphabet's IR website.
 - `input/sec-grp-url.csv`: Group URL input file. Example configuraton is the SEC groups used for Alphabet's IR website.
@@ -30,11 +30,11 @@ It includes a graphical interface for ease of use.
 
 ---
 
-## How to Install
+# How to Install
 
 - A virtual environment is recommended for running the scripts. An installer script (`setup.sh`) is provided for automated setup of the virtual environment.
 
-# VIRTUAL ENVIRONMENT SETUP (Automated)
+## VIRTUAL ENVIRONMENT SETUP (Automated)
 
 1. Place the `setup.sh` file into the same folder as the script files (`pdf_downloader.py`).
 2. Open Terminal and navigate to the folder: 
@@ -55,7 +55,7 @@ This will:
 - Activate it
 - Install required packages: requests, beautifulsoup4, pandas
 
-# VIRTUAL ENVIRONMENT SETUP (Manual)
+## VIRTUAL ENVIRONMENT SETUP (Manual)
 
 If you are using macOS or Linux:
 
@@ -72,10 +72,9 @@ If you are using macOS or Linux:
 5. Install required packages:
    `pip install requests beautifulsoup4 pandas`
 
+# HOW TO RUN THE DOWNLOADER
 
-## HOW TO RUN THE DOWNLOADER
-
-# Option 1: Terminal
+## Option 1: Terminal
 
 1. Open Terminal and `cd` into the pdf_downloader_2025 folder.
 2. Ensure dependencies are installed:
@@ -94,7 +93,7 @@ If you are using macOS or Linux:
    ```
    deactivate
    ```
-# Option 2: GUI (macOS/Windows)
+## Option 2: GUI (macOS/Windows)
 
 1. Open Terminal and `cd` into the pdf_downloader_2025 folder.
 2. Ensure dependencies are installed:
