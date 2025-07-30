@@ -1,11 +1,11 @@
-# pdf-downloader
+## pdf-downloader
 
 A python project for downloading .pdf filings from a public URL and organizing the folder structure using input files.
 Example configuration is setup for Alphabet's IR website. 
 It includes a graphical interface for ease of use. 
 
 ---
-## Included Files
+# Included Files
 
 # Scripts
 - `pdf_downloader.py`: The main script for downloading PDFs.
@@ -34,11 +34,10 @@ It includes a graphical interface for ease of use.
 
 - A virtual environment is recommended for running the scripts. An installer script (`setup.sh`) is provided for automated setup of the virtual environment.
 
-==========================
- VIRTUAL ENVIRONMENT SETUP(Automated)
+# VIRTUAL ENVIRONMENT SETUP (Automated)
 
 1. Place the `setup.sh` file into the same folder as the script files (`pdf_downloader.py`).
-2. Open Terminal and navigate to the folder:
+2. Open Terminal and navigate to the folder: 
 
    `cd ~/Downloads/pdf_downloader_2025`
 
@@ -56,8 +55,7 @@ This will:
 - Activate it
 - Install required packages: requests, beautifulsoup4, pandas
 
-=====================================
- VIRTUAL ENVIRONMENT SETUP (Manual)
+# VIRTUAL ENVIRONMENT SETUP (Manual)
 
 If you are using macOS or Linux:
 
@@ -74,13 +72,10 @@ If you are using macOS or Linux:
 5. Install required packages:
    `pip install requests beautifulsoup4 pandas`
 
-=====================
-TO RUN THE DOWNLOADER
-=====================
 
-## How to Use
+## HOW TO RUN THE DOWNLOADER
 
-### Option 1: Terminal
+# Option 1: Terminal
 
 1. Open Terminal and `cd` into the pdf_downloader_2025 folder.
 2. Ensure dependencies are installed:
@@ -99,7 +94,7 @@ TO RUN THE DOWNLOADER
    ```
    deactivate
    ```
-### Option 2: GUI (macOS/Windows)
+# Option 2: GUI (macOS/Windows)
 
 1. Open Terminal and `cd` into the pdf_downloader_2025 folder.
 2. Ensure dependencies are installed:
