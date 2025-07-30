@@ -10,7 +10,7 @@ It includes a graphical interface for ease of use.
 # Scripts
 - `pdf_downloader.py`: The main script for downloading PDFs.
 - `gui_launcher.py`: A graphical interface to launch the downloader without using the terminal.
-- `update_filing_type_filenames`: A script for scanning page 1 from downloaaded PDFs and renaming files.
+- `update_filing_type_filenames`: A script for scanning page 1 from downloaaded PDFs and renaming files based on sec-grp-det.csv
 
 # Input Files
 - `input/base-url.csv`: Base URL input file. Example configuration is for Alphabet's IR website.
@@ -34,9 +34,9 @@ It includes a graphical interface for ease of use.
 
 - A virtual environment is recommended for running the scripts. An installer script (setup.sh) is provided for automated setup of the virtual environment.
 
-=======================================
+==========================
  VIRTUAL ENVIRONMENT SETUP(Automated)
-=======================================
+==========================
 
 1. Place the 'setup.sh' file into the same folder as the script files (e.g. pdf_downloader.py).
 2. Open Terminal and navigate to the folder:
@@ -76,9 +76,9 @@ If you are using macOS or Linux:
 5. Install required packages:
    pip install requests beautifulsoup4 pandas
 
-============================
+=====================
 TO RUN THE DOWNLOADER
-============================
+=====================
 
 ## How to Use
 
@@ -88,18 +88,18 @@ TO RUN THE DOWNLOADER
 2. Ensure dependencies are installed:
    ```
    pip install requests beautifulsoup4 pandas
-   
+   ```
 3. Run the pdf_downloader script:
    ```
    python3 pdf_downloader.py
-   
+   ```
 4. Run the update_filing_type_filenames script:
    ```
    python3 update_filing_type_filenames.py
-  
+   ```
 5. Deactivate the virtual environment when done:
-  ```
-  deactivate
+   ```
+   deactivate
    ```
 ### Option 2: GUI (macOS/Windows)
 
@@ -107,11 +107,11 @@ TO RUN THE DOWNLOADER
 2. Ensure dependencies are installed:
    ```
    pip install requests beautifulsoup4 pandas
-   
+   ```
 3. Run the gui_launcher script:
    ```
    python3 gui_launcher.py
-   
+   ```
 4. Use file browsers to select:
    - `input/base-url.csv`
    - `input/sec-grp-url.csv`
@@ -122,9 +122,8 @@ TO RUN THE DOWNLOADER
 6. Run the update_filing_type_filenames script:
    ```
    python3 update_filing_type_filenames.py
-
-7. Deactivate the virtual environment when done:
-  ```
-  deactivate
    ```
-
+7. Deactivate the virtual environment when done:
+   ```
+   deactivate
+   ```
