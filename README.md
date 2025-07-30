@@ -13,8 +13,8 @@ Example configuration is setup for Alphabet's IR website. It includes a graphica
 ## Input Files
 - `input/base-url.csv`: Base URL input file. Example configuration is for Alphabet's IR website.
 - `input/year-url.csv`: Year URL input file. Example configuration is filing years to process from Alphabet's IR website.
-- `input/sec-grp-url.csv`: Group URL input file. Example configuraton is the SEC groups used for Alphabet's IR website.
-- `input/sec-grp-det.csv`: Group details input file. Example configuraton is the SEC filing types on Alphabet's IR website.
+- `input/sec-grp-url.csv`: SEC group URL input file. Example configuraton is the SEC groups used for Alphabet's IR website.
+- `input/sec-grp-det.csv`: SEC group details input file. Example configuraton is the SEC filing types on Alphabet's IR website.
 
 ## Output Files
 
