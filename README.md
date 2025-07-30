@@ -4,7 +4,6 @@ A python project for downloading .pdf filings from a public URL and organizing t
 Example configuration is setup for Alphabet's IR website. 
 It includes a graphical interface for ease of use. 
 Additional details are provided within the file: `pdf-downloader-design.pdf`
-
 ---
 ## Included Files
 
